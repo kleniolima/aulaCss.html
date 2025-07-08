@@ -1,0 +1,137 @@
+/* === Tema: Tecnologia Urbana - Visual Modernizado === */
+
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1C1C1C;
+  color: #E5E5E5;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout principal */
+.page-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #007ACC;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+}
+
+/* Links */
+a {
+  color: #007ACC;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #00BFFF;
+  text-decoration: underline;
+}
+
+/* Seções */
+.intro, .supporting, .requirements, .participation, .explanation, .benefits {
+  background-color: #2A2A2A;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #252526;
+  padding: 2rem;
+  border-left: 4px solid #007ACC;
+  margin-top: 2rem;
+}
+
+.sidebar h3 {
+  border-bottom: 2px solid #007ACC;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #E5E5E5;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: #E5E5E5;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #00BFFF;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+  margin-top: 3rem;
+}
+
+/* Rodapé links */
+footer a {
+  margin: 0 0.5rem;
+  color: #888;
+}
+
+footer a:hover {
+  color: #007ACC;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .sidebar {
+    border-left: none;
+    border-top: 4px solid #007ACC;
+    margin-top: 2rem;
+  }
+}
